@@ -1,0 +1,22 @@
+a{
+ text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.h-img{
+  height:100%;
+  width:auto;
+  object-fit: cover;
+  object-position: center;
+}
+.c-hover{
+  transition: all 500ms ease-in-out;
+}
+.c-hover:hover{
+  transform: translateY(-12px);
+}
